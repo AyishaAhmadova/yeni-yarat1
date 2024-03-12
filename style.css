@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    font-family: "Dancing Script", cursive;
+    position: sticky;
+
+}
+
+.body {
+    background-color: aliceblue;
+}
+
+.navbar {
+    padding: 20px 20px;
+    width: 100%;
+    color: rgb(223, 182, 120);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(137, 115, 88);
+    position: fixed;
+    font-family: "Oleo Script", system-ui;
+}
+
+.logoyaz {
+    color: rgb(172, 149, 121);
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+
+}
+
+.navbar img {
+    width: 75px;
+    height: 55px;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+}
+
+.icon-container {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(234, 232, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.fa-solid {
+    width: 20px;
+    height: 20px;
+    color: rgb(25, 1, 48);
+    background-size: cover;
+    position: absolute;
+    top: 48%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 50%;
+    background-image: url(baclogoaa.jpg);
+
+
+}
+
+.lampa {
+    position: absolute;
+    width: 145px;
+    top: 30px;
+    right: 0px;
+}
+
+.link ul li {
+    display: inline-flex;
+    font-family: "Oleo Script", system-ui;
+    padding: 0;
+    gap: 55px;
+    text-align: center;
+    width: 100px;
+    margin: 15px;
+
+
+}
+
+.link ul {
+    display: inline-flex;
+    gap: 40px;
+}
+
+.link ul li a:hover {
+    color: rgb(243, 245, 239);
+}
+
+.arxa1 {
+    background-position: center;
+    background-image: url("background\ 1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-self: center;
+    align-items: center;
+}
+
+.arxa1 {
+    height: 100vh;
+}
+
+.arxa1 h3 {
+    color: rgb(250, 213, 179);
+    text-shadow: 0 0 5px rgb(151, 40, 40);
+    text-align: center;
+    padding-top: 400px;
+    font-size: xx-large;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+
+
+.arxa1 p {
+    color: rgb(250, 213, 179);
+    justify-content: center;
+    justify-self: center;
+    margin: 80px;
+    font-family: "Dancing Script", cursive;
+}
+
+.arxa {
+    background-position: center;
+    background-image: url("backgroun2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-self: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.arxa {
+    height: 100vh;
+}
+
+
+.arxa h3 {
+    color: rgb(250, 213, 179);
+    text-shadow: 0 0 5px rgb(151, 40, 40);
+    text-align: center;
+    padding-top: 400px;
+    font-size: xx-large;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+
+
+.arxa p {
+    color: rgb(250, 213, 179);
+    justify-content: center;
+    justify-self: center;
+    margin: 80px;
+    font-family: "Dancing Script", cursive;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+.qiymet {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+.karts {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 10px;
+    color: rgb(34, 30, 30);
+    padding: 10px 20px;
+    background-color: rgb(4, 7, 4);
+    text-align: center;
+    border: black;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.kart {
+    width: 20%;
+    text-align: center;
+    border: 3px solid rgb(186, 137, 84);
+    border-style: solid;
+    border-radius: 10px;
+    ;
+
+}
+
+.kart img {
+    margin-top: 5px;
+    width: 50%;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+.arxa2 {
+    background-image: url(backgroun2.avif);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    box-sizing: border-box;
+    background-color: rgb(15, 2, 2);
+
+}
+
+.arxa2 h6 {
+    color: rgb(250, 213, 179);
+    text-shadow: 0 0 5px rgb(151, 40, 40);
+    text-align: center;
+    padding-top: 400px;
+    font-size: xx-large;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.picture {
+    bottom: 40px;
+    ;
+
+}
+
+.picture img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    bottom: 30%;
+    left: 30%;
+
+}
+
+.sol h4 {
+    font-family: "Dancing Script", cursive;
+    color: black;
+
+}
+
+.sol {
+    width: 800px;
+    bottom: 60%;
+}
+
+.sag {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
